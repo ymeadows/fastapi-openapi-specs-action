@@ -1,6 +1,6 @@
-FROM python:latest
+FROM bitnami/python:3.11
 
-LABEL maintainer="Felipe Faria <me@felipefaria.me>"
+LABEL maintainer="Adam Rich <adam.rich@ymeadows.com>"
 
 # Installs depedency.
 RUN pip install fastapi pyyaml
