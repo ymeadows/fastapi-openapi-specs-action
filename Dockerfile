@@ -1,4 +1,4 @@
-FROM bitnami/python:3.11
+FROM bitnami/python:3.12
 
 LABEL maintainer="Adam Rich <adam.rich@ymeadows.com>"
 
