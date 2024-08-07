@@ -25,6 +25,10 @@ if not pyfile:
 elif ".py" in pyfile:
     pyfile = pyfile.replace(".py", "")
 
+# Install OS dependencies
+if os.path.exists("setup.sh"):
+    os.system("bash setup.sh")
+
 # Install package dependencies.
 if install:
     os.system(install)
